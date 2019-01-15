@@ -1,5 +1,10 @@
-# OPC Foundation UA ANSI C Stack
+# OPC Foundation UA ANSI C Stack Legacy
 
+**This repository is provided by OPC Foundation as legacy support for an AnsiC version for OPC UA. It will not receive further features and updates.**
+
+The OPC Foundation will continue maintenance of the .NET Stack which is based on .NET Standard. It can be found [here](https://github.com/OPCFoundation/UA-.NETStandard).
+
+---
 The OPC Foundation has formally released the OPC Unified Architecture ANSI C Stack and Sample Code to the community.
 
 Please review official site page (http://opcfoundation.github.io/UA-AnsiC/) for:
