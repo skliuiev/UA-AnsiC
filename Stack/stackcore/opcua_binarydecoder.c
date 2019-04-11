@@ -128,6 +128,11 @@ OpcUa_FinishErrorHandling;
     { \
         OpcUa_ReturnStatusCode; \
     } \
+        \
+    if (iLength == 0) \
+    { \
+        OpcUa_ReturnStatusCode; \
+    } \
     \
     if (pHandle->Context->MaxArrayLength > 0 && (OpcUa_UInt32)iLength > pHandle->Context->MaxArrayLength) \
     { \
@@ -2581,6 +2586,11 @@ OpcUa_StatusCode OpcUa_BinaryDecoder_ReadEncodeableArray(
         OpcUa_ReturnStatusCode;
     }
 
+    if (iLength == 0)
+    {
+        OpcUa_ReturnStatusCode;
+    }
+
     /* check if limits exceeded */
     if (pHandle->Context->MaxArrayLength > 0 && (OpcUa_UInt32)iLength > pHandle->Context->MaxArrayLength)
     {
@@ -2667,6 +2677,11 @@ OpcUa_StatusCode OpcUa_BinaryDecoder_ReadEnumeratedArray(
 
     /* check for null array */
     if (iLength == -1)
+    {
+        OpcUa_ReturnStatusCode;
+    }
+
+    if (iLength == 0)
     {
         OpcUa_ReturnStatusCode;
     }
