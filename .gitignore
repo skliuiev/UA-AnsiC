@@ -37,3 +37,4 @@ openssl*/*
 *.ilk
 *.iobj
 *.ipdb
+.DS_Store
