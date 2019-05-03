@@ -81,20 +81,20 @@
 /* #define OPCUA_EXCLUDE_StructureField */
 /* #define OPCUA_EXCLUDE_StructureDefinition */
 /* #define OPCUA_EXCLUDE_EnumDefinition */
-/* #define OPCUA_EXCLUDE_Node */
+#define OPCUA_EXCLUDE_Node
 #define OPCUA_EXCLUDE_InstanceNode
-/* #define OPCUA_EXCLUDE_TypeNode */
+#define OPCUA_EXCLUDE_TypeNode
 /* #define OPCUA_EXCLUDE_ObjectNode */
 /* #define OPCUA_EXCLUDE_ObjectTypeNode */
 /* #define OPCUA_EXCLUDE_VariableNode */
 /* #define OPCUA_EXCLUDE_VariableTypeNode */
 /* #define OPCUA_EXCLUDE_ReferenceTypeNode */
-/* #define OPCUA_EXCLUDE_MethodNode */
-/* #define OPCUA_EXCLUDE_ViewNode */
-/* #define OPCUA_EXCLUDE_DataTypeNode */
+#define OPCUA_EXCLUDE_MethodNode
+#define OPCUA_EXCLUDE_ViewNode
+#define OPCUA_EXCLUDE_DataTypeNode
 /* #define OPCUA_EXCLUDE_ReferenceNode */
 /* #define OPCUA_EXCLUDE_AttributeWriteMask */
-/* #define OPCUA_EXCLUDE_NodeAttributesMask */
+#define OPCUA_EXCLUDE_NodeAttributesMask
 /* #define OPCUA_EXCLUDE_Argument */
 /* #define OPCUA_EXCLUDE_EnumValueType */
 /* #define OPCUA_EXCLUDE_EnumField */
